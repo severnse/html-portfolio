@@ -1,0 +1,47 @@
+@font-face {
+    font-family: story-font;
+    src: url(StoryScript-Regular.ttf);
+}
+
+h1 {
+    font-family: story-font;
+    font-weight: bold;
+    align-items: center;
+    font-size: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    float: left;
+}
+
+.main-grid {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+.bonus-grid {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+}
+
+.p1 {
+    font-family: story-font;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    font-family: story-font;
+    font-size: 15px;
+    align-items: center;
+}
