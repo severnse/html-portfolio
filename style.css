@@ -1,13 +1,28 @@
+body {
+    background-color: rgb(130, 65, 20);
+}
+
 @font-face {
     font-family: story-font;
     src: url(StoryScript-Regular.ttf);
 }
 
 h1 {
+    background-color: white;
     font-family: story-font;
     font-weight: bold;
     align-items: center;
     font-size: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+h2 {
+    font-family: story-font;
+    font-weight: bold;
+    align-items: center;
+    font-size: 25px;
 }
 
 img {
@@ -36,12 +51,14 @@ img {
 
 .p1 {
     font-family: story-font;
-    font-size: 25px;
+    color: white;
+    font-size: 30px;
     text-align: center;
 }
 
 p {
     font-family: story-font;
-    font-size: 15px;
+    color: white;
+    font-size: 20px;
     align-items: center;
 }
